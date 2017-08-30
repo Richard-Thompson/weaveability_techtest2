@@ -1,0 +1,29 @@
+.logo{
+  margin:0 auto;
+  min-width:300px;
+}
+
+.search-box{
+  width: 60%;
+  height:30px;
+  border-radius:10px;
+  border:1px solid black;
+}
+.loggedin-wrapper{
+  min-width:200px;
+  justify-content: flex-end;
+}
+.loggedin-wrapper p{
+margin-right:10px;
+white-space: nowrap;
+}
+
+@media only screen and (max-width:768px) {
+  .column {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    min-width:0;
+  }
+}

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import TopNav from './TopNav';
 
 class App extends Component {
   render () {
     return (
-      <div>This is rendering</div>
+      <TopNav />
     )
   }
 }

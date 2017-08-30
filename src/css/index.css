@@ -1,0 +1,26 @@
+body {
+  width:100%;
+  max-width:1600px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+body * {
+  font-size:15pt;
+}
+
+.columns{
+  margin: 0;
+}
+.columns:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.columns:last-child {
+    margin-bottom: 0;
+}
+
+.column{
+  display: flex;
+  align-items: center;
+}
